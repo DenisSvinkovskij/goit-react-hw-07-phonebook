@@ -4,7 +4,7 @@ import s from './ContactForm.module.css';
 import Toast from '../Toast/Toast';
 import { CSSTransition } from 'react-transition-group';
 import { connect } from 'react-redux';
-import phonebookSelectors from '../../redux/phonebook/phonebook-selectors';
+import phonebookSelectors from '../../redux/phonebook/contacts-selectors';
 import phonebookOperations from '../../redux/phonebook/phonebook-operations';
 
 class ContactForm extends Component {

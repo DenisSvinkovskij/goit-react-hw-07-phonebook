@@ -4,7 +4,7 @@ import s from './ContactList.module.css';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { connect } from 'react-redux';
 import phonebookOperations from '../../redux/phonebook/phonebook-operations';
-import phonebookSelectors from '../../redux/phonebook/phonebook-selectors';
+import phonebookSelectors from '../../redux/phonebook/contacts-selectors';
 
 function ContactList({ contacts, onDeleteContact }) {
   return (

@@ -4,7 +4,7 @@ import { CSSTransition } from 'react-transition-group';
 import s from './Filter.module.css';
 import { connect } from 'react-redux';
 import { changeFilter } from '../../redux/phonebook/phonebook-actions';
-import phonebookSelectors from '../../redux/phonebook/phonebook-selectors';
+import phonebookSelectors from '../../redux/phonebook/contacts-selectors';
 
 function Filter({ value = '', onChangeFilter, items }) {
   return (
